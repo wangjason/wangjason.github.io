@@ -8,7 +8,9 @@ http://atwoodunix.github.io/atom.xml
 http://atwoodunix.github.io/index.html
 http://atwoodunix.github.io/sitemap.txt
 
+http://atwoodunix.github.io/lessons/2013/12/07/vim
 http://atwoodunix.github.io/supporting%20tagline/2013/12/07/tmux-shortcuts
 http://atwoodunix.github.io/lessons/2013/12/07/tmux-introduction
+http://atwoodunix.github.io/lessons/2013/12/07/ssh-proxy
 http://atwoodunix.github.io/lessons/2013/12/07/jekyll0
 http://atwoodunix.github.io/lessons/2013/12/07/jekyll

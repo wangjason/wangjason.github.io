@@ -4,7 +4,7 @@
  <title>Atwood blog</title>
  <link href="http://atwoodunix.github.io/" rel="self"/>
  <link href="http://atwoodunix.github.io"/>
- <updated>2013-12-07T19:05:15+00:00</updated>
+ <updated>2013-12-07T19:10:35+00:00</updated>
  <id>http://atwoodunix.github.io</id>
  <author>
    <name>Wang Atwood</name>
@@ -102,9 +102,9 @@ C-b pageup/pagedo&lt;/code&gt;&lt;/pre&gt;</content>
  
  <entry>
    <title>Jekyll0</title>
-   <link href="http://atwoodunix.github.io/2013/12/07/jekyll0"/>
+   <link href="http://atwoodunix.github.io/lessons/2013/12/07/jekyll0"/>
    <updated>2013-12-07T00:00:00+00:00</updated>
-   <id>http://atwoodunix.github.io/2013/12/07/jekyll0</id>
+   <id>http://atwoodunix.github.io/lessons/2013/12/07/jekyll0</id>
    <content type="html">&lt;p&gt;然后，创建一个没有父节点的分支gh-pages。因为github规定，只有该分支中的页面，才会生成网页文件。&lt;/p&gt;
 
 &lt;p&gt;　　$ git checkout &amp;#8211;orphan gh-pages&lt;/p&gt;
@@ -160,7 +160,7 @@ C-b pageup/pagedo&lt;/code&gt;&lt;/pre&gt;</content>
 　　　　
 　　　　　　&amp;lt;li&amp;gt;07 Dec 2013 &amp;lt;a href=&amp;quot;//lessons/2013/12/07/tmux-introduction&amp;quot;&amp;gt;Tmux Introduction&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
 　　　　
-　　　　　　&amp;lt;li&amp;gt;07 Dec 2013 &amp;lt;a href=&amp;quot;//2013/12/07/jekyll0&amp;quot;&amp;gt;Jekyll0&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+　　　　　　&amp;lt;li&amp;gt;07 Dec 2013 &amp;lt;a href=&amp;quot;//lessons/2013/12/07/jekyll0&amp;quot;&amp;gt;Jekyll0&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
 　　　　
 　　　　　　&amp;lt;li&amp;gt;07 Dec 2013 &amp;lt;a href=&amp;quot;//lessons/2013/12/07/jekyll&amp;quot;&amp;gt;Jekyll&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
 　　　　

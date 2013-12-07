@@ -10,5 +10,5 @@ http://atwoodunix.github.io/sitemap.txt
 
 http://atwoodunix.github.io/supporting%20tagline/2013/12/07/tmux-shortcuts
 http://atwoodunix.github.io/lessons/2013/12/07/tmux-introduction
-http://atwoodunix.github.io/2013/12/07/jekyll0
+http://atwoodunix.github.io/lessons/2013/12/07/jekyll0
 http://atwoodunix.github.io/lessons/2013/12/07/jekyll

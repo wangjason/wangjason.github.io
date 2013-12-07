@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+        <title>Atwood blog</title>
+        <description>Atwood blog - Wang Atwood</description>
+        <link>http://atwoodunix.github.io</link>
+        <link>http://atwoodunix.github.io</link>
+        <lastBuildDate>2013-12-07T16:41:03+00:00</lastBuildDate>
+        <pubDate>2013-12-07T16:41:03+00:00</pubDate>
+        <ttl>1800</ttl>
+
+
+        <item>
+                <title>tmux shortcuts</title>
+                <description>&lt;h2 id='tmux_using'&gt;tmux using&lt;/h2&gt;
+
+&lt;p&gt;tmux #开启tmux&lt;/p&gt;
+
+&lt;p&gt;tmux ls #显示已有tmux列表（C-b s）&lt;/p&gt;
+
+&lt;p&gt;tmux attach-session -t 数字 #选择tmux&lt;/p&gt;
+
+&lt;p&gt;C-b c 创建一个新的窗口&lt;/p&gt;
+
+&lt;p&gt;C-b n 切换到下一个窗口&lt;/p&gt;
+
+&lt;p&gt;C-b p 切换到上一个窗口&lt;/p&gt;
+
+&lt;p&gt;C-b l 最后一个窗口,和上一个窗口的概念不一样哟,谁试谁知道&lt;/p&gt;
+
+&lt;p&gt;c-b w 通过上下键选择当前窗口中打开的会话&lt;/p&gt;
+
+&lt;p&gt;C-b 数字 直接跳到你按的数字所在的窗口&lt;/p&gt;
+
+&lt;p&gt;C-b &amp;amp; 退出当前窗口&lt;/p&gt;
+
+&lt;p&gt;C-b d 临时断开会话 断开以后,还可以连上的哟:)&lt;/p&gt;
+
+&lt;p&gt;C-b &amp;#8221; 分割出来一个窗口&lt;/p&gt;
+
+&lt;p&gt;C-b % 分割出来一个窗口&lt;/p&gt;
+
+&lt;p&gt;C-b (方向键)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;C-b ! 关闭所有小窗口
+
+C-b x 关闭当前光标处的小窗口
+
+C-b t 钟表
+
+C-b pageup/pagedo&lt;/code&gt;&lt;/pre&gt;</description>
+                <link>http://atwoodunix.github.io/supporting%20tagline/2013/12/07/tmux-shortcuts</link>
+                <guid>http://atwoodunix.github.io/supporting%20tagline/2013/12/07/tmux-shortcuts</guid>
+                <pubDate>2013-12-07T00:00:00+00:00</pubDate>
+        </item>
+
+        <item>
+                <title>Tmux Introduction</title>
+                <description>&lt;h2 id='tmux_using'&gt;tmux using&lt;/h2&gt;
+
+&lt;p&gt;tmux #开启tmux&lt;/p&gt;
+
+&lt;p&gt;tmux ls #显示已有tmux列表（C-b s）&lt;/p&gt;
+
+&lt;p&gt;tmux attach-session -t 数字 #选择tmux&lt;/p&gt;
+
+&lt;p&gt;C-b c 创建一个新的窗口&lt;/p&gt;
+
+&lt;p&gt;C-b n 切换到下一个窗口&lt;/p&gt;
+
+&lt;p&gt;C-b p 切换到上一个窗口&lt;/p&gt;
+
+&lt;p&gt;C-b l 最后一个窗口,和上一个窗口的概念不一样哟,谁试谁知道&lt;/p&gt;
+
+&lt;p&gt;c-b w 通过上下键选择当前窗口中打开的会话&lt;/p&gt;
+
+&lt;p&gt;C-b 数字 直接跳到你按的数字所在的窗口&lt;/p&gt;
+
+&lt;p&gt;C-b &amp;amp; 退出当前窗口&lt;/p&gt;
+
+&lt;p&gt;C-b d 临时断开会话 断开以后,还可以连上的哟:)&lt;/p&gt;
+
+&lt;p&gt;C-b &amp;#8221; 分割出来一个窗口&lt;/p&gt;
+
+&lt;p&gt;C-b % 分割出来一个窗口&lt;/p&gt;
+
+&lt;p&gt;C-b (方向键)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;C-b ! 关闭所有小窗口
+
+C-b x 关闭当前光标处的小窗口
+
+C-b t 钟表
+
+C-b pageup/pagedo&lt;/code&gt;&lt;/pre&gt;</description>
+                <link>http://atwoodunix.github.io/lessons/2013/12/07/tmux-introduction</link>
+                <guid>http://atwoodunix.github.io/lessons/2013/12/07/tmux-introduction</guid>
+                <pubDate>2013-12-07T00:00:00+00:00</pubDate>
+        </item>
+
+        <item>
+                <title>Jekyll</title>
+                <description>&lt;h3 id='id2'&gt;一、为文章添加分类&lt;/h3&gt;
+
+&lt;p&gt;在编辑一篇文章的时候，我们会在文章的头部写上一些 key 值, 同样的道理，我们可以为 这篇文章添加上 category 来分类。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;layout: post title: 为 Jekyll 博客添加 category 分类&lt;/p&gt;
+
+&lt;h2 id='category_jekyll'&gt;category: Jekyll&lt;/h2&gt;
+
+&lt;h3 id='id3'&gt;二、添加分类功能到你希望它出现的地方&lt;/h3&gt;
+
+&lt;p&gt;在这里，你只需要把下面的代码拷贝到你的博客中，就能看到你添加的文章出现的分类了。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;h4&amp;gt;Category&amp;lt;/h4&amp;gt;
+&amp;lt;ul&amp;gt;
+    //这里使用了 Jekyll 语法，会被编译，所以加多个&amp;quot;\&amp;quot;
+    {\% for category in site.categories %\}
+    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;/categories/{\{ category | first }\}/&amp;quot; title=&amp;quot;view all
+posts&amp;quot;&amp;gt;{\{ category | first }\} {\{ category | last | size }\}&amp;lt;/a&amp;gt;
+    &amp;lt;/li&amp;gt;
+    {\% endfor %\}
+&amp;lt;/ul&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id='_category_'&gt;三、为博客添加 category 插件&lt;/h3&gt;
+
+&lt;p&gt;添加 category 插件很简单，只要在根目录下建立一个 &amp;#8220;plugins&amp;#8221; 文件夹，然后拷贝category_plugin.rb 文件到里面就好了。category_plugin 文件的源代码可以在这里查看到。&lt;/p&gt;
+
+&lt;p&gt;这个插件的作用有两点：&lt;/p&gt;
+
+&lt;p&gt;建立 categories 文件夹, 遍历所有文章的分类，再根据分类建立分类的文件夹。 为每个分类建立一个 index.html 文件, 该文件的模板来自 layouts 里面的 category_index.html，因此您需要在 layouts 里面添加符合自己博客主题的文件。 四、添加 category_index.html 模板&lt;/p&gt;
+
+&lt;p&gt;这个模板是为了将我们的分类主页显示出来，显示的内容是一个分类的所有文章。也就是分 类列表的链接地址。具体使用到的代码如下：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{\% for post in site.categories.[page.category] %\}
+    {\{ post.date }\} {\{ post.title }\}
+{\% endfor %\}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;创建一篇日志&lt;/p&gt;
+
+&lt;p&gt;发布日志前,先在配置文件_config.yml中设置URL格式&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$permalink: /:year/:month/:title.html&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;其他格式参考: https://github.com/mojombo/jekyll/wiki/Permalinks&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$rake post title=&amp;quot;about this blog&amp;quot; //这个名字将会在url中呈现，所以尽量短些好
+ (in d:/github/feiyuliu.github.com)
+  Creating new post: ./_posts/2012-12-05-about-this-blog.md&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;到_post目录下找到刚才建立的文件，然后编辑文件。设置title,description,category,tags等，再就是用markdown来写文章了。&lt;/p&gt;
+
+&lt;p&gt;创建一个页面&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$rake page name=&amp;quot;about.md&amp;quot;
+Creating new page: ./about.md&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;创建一个嵌套的页面&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$rake page name=&amp;quot;pages/about.md&amp;quot;
+Creating new page: ./pages/about.md&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;创建一个路径页面&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$rake page name=&amp;quot;pages/about&amp;quot;
+Creating new page: ./pages/about/index.html&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Jekyll也提供了许多预设的页面例子,以供参考.你可以学习和按自己的需要自定义它.&lt;/p&gt;
+
+&lt;p&gt;参考文章:&lt;/p&gt;
+
+&lt;p&gt;我的jekyll配置和修改&lt;/p&gt;
+
+&lt;p&gt;所有的分类都在site.categories里，所以只遍历它，就可以把分类读取出来， 其中: category | fist 为分类名称,category | last | size 为该分类下文章数量。&lt;/p&gt;
+
+&lt;p&gt;如：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{％ for category in site.categories ％}
+&amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;/｛｛ category | first ｝｝.html&amp;quot;&amp;gt;｛｛ category | first ｝｝(｛｛ category | last | size ｝｝)&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+{％ endfor ％}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;读取各分类下的文章列表&lt;/p&gt;
+
+&lt;p&gt;首先，在根目录下建分类文件，如，有一个分类叫:mac，那就可以在根目录下建一个mac.html文件，这个文件头除了layout，再加一个name，和分类名称一样，如：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;layout: default
+name: mac&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;有这个这个name，后面就可以用page.name来调用它，为什么要调用它，后面再讲。&lt;/p&gt;
+
+&lt;p&gt;为了照顾多个分类，所以我们再建一个包含文件，取名叫: category.html， 自然这个文件是放在_includes目录下的。category.html内容：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;分类：｛｛ page.name ｝｝
+文章数：｛｛ site.categories[page.name] | size ｝｝
+列表：
+｛％ for post in site.categories[page.name] ％｝
+//和读取post一样
+｛％ endfor ％｝&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;可以看出，site.categories就是利用page.name来读取对应分类下的文章的。 相关文章和此类似，目的就是读取同一分类下的文章，也是利用site.categories来获取， 只是不需要用page.name，因为文章里有分类的设置，直接用page.category就可以了。&lt;/p&gt;</description>
+                <link>http://atwoodunix.github.io/lessons/2013/12/07/jekyll</link>
+                <guid>http://atwoodunix.github.io/lessons/2013/12/07/jekyll</guid>
+                <pubDate>2013-12-07T00:00:00+00:00</pubDate>
+        </item>
+
+
+</channel>
+</rss>

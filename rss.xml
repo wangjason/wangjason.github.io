@@ -5,8 +5,8 @@
         <description>Atwood blog - Wang Atwood</description>
         <link>http://atwoodunix.github.io</link>
         <link>http://atwoodunix.github.io</link>
-        <lastBuildDate>2013-12-07T18:22:15+00:00</lastBuildDate>
-        <pubDate>2013-12-07T18:22:15+00:00</pubDate>
+        <lastBuildDate>2013-12-07T19:05:15+00:00</lastBuildDate>
+        <pubDate>2013-12-07T19:05:15+00:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -95,6 +95,73 @@ C-b t 钟表
 C-b pageup/pagedo&lt;/code&gt;&lt;/pre&gt;</description>
                 <link>http://atwoodunix.github.io/lessons/2013/12/07/tmux-introduction</link>
                 <guid>http://atwoodunix.github.io/lessons/2013/12/07/tmux-introduction</guid>
+                <pubDate>2013-12-07T00:00:00+00:00</pubDate>
+        </item>
+
+        <item>
+                <title>Jekyll0</title>
+                <description>&lt;p&gt;然后，创建一个没有父节点的分支gh-pages。因为github规定，只有该分支中的页面，才会生成网页文件。&lt;/p&gt;
+
+&lt;p&gt;　　$ git checkout &amp;#8211;orphan gh-pages&lt;/p&gt;
+
+&lt;p&gt;以下所有动作，都在该分支下完成。&lt;/p&gt;
+
+&lt;p&gt;第二步，创建设置文件。&lt;/p&gt;
+
+&lt;p&gt;在项目根目录下，建立一个名为_config.yml的文本文件。它是jekyll的设置文件，我们在里面填入如下内容，其他设置都可以用默认选项，具体解释参见官方网页。&lt;/p&gt;
+
+&lt;p&gt;　　baseurl: /jekyll_demo&lt;/p&gt;
+
+&lt;p&gt;目录结构变成：&lt;/p&gt;
+
+&lt;p&gt;　　/jekyll_demo&lt;/p&gt;
+
+&lt;p&gt;　　　　|&amp;#8211;　_config.yml&lt;/p&gt;
+
+&lt;p&gt;第三步，创建模板文件。&lt;/p&gt;
+
+&lt;p&gt;在项目根目录下，创建一个_layouts目录，用于存放模板文件。&lt;/p&gt;
+
+&lt;p&gt;进入该目录，创建一个default.html文件，作为Blog的默认模板。并在该文件中填入以下内容。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;　　&amp;lt;!DOCTYPE html&amp;gt;
+　　&amp;lt;html&amp;gt;
+　　&amp;lt;head&amp;gt;
+　　　　&amp;lt;meta http-equiv=&amp;quot;content-type&amp;quot; content=&amp;quot;text/html; charset=utf-8&amp;quot; /&amp;gt;
+　　　　&amp;lt;title&amp;gt;Jekyll0&amp;lt;/title&amp;gt;
+　　&amp;lt;/head&amp;gt;
+　　&amp;lt;body&amp;gt;
+
+　　　　
+
+　　&amp;lt;/body&amp;gt;
+　　&amp;lt;/html&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;第五步，创建首页。&lt;/p&gt;
+
+&lt;p&gt;有了文章以后，还需要有一个首页。&lt;/p&gt;
+
+&lt;p&gt;回到根目录，创建一个index.html文件，填入以下内容。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;　　---
+　　layout: default
+　　title: 我的Blog
+　　---
+　　&amp;lt;h2&amp;gt;Jekyll0&amp;lt;/h2&amp;gt;
+　　&amp;lt;p&amp;gt;最新文章&amp;lt;/p&amp;gt;
+　　&amp;lt;ul&amp;gt;
+　　　　
+　　　　　　&amp;lt;li&amp;gt;07 Dec 2013 &amp;lt;a href=&amp;quot;//supporting%20tagline/2013/12/07/tmux-shortcuts&amp;quot;&amp;gt;tmux shortcuts&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+　　　　
+　　　　　　&amp;lt;li&amp;gt;07 Dec 2013 &amp;lt;a href=&amp;quot;//lessons/2013/12/07/tmux-introduction&amp;quot;&amp;gt;Tmux Introduction&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+　　　　
+　　　　　　&amp;lt;li&amp;gt;07 Dec 2013 &amp;lt;a href=&amp;quot;//2013/12/07/jekyll0&amp;quot;&amp;gt;Jekyll0&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+　　　　
+　　　　　　&amp;lt;li&amp;gt;07 Dec 2013 &amp;lt;a href=&amp;quot;//lessons/2013/12/07/jekyll&amp;quot;&amp;gt;Jekyll&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+　　　　
+　　&amp;lt;/ul&amp;gt;&lt;/code&gt;&lt;/pre&gt;</description>
+                <link>http://atwoodunix.github.io/2013/12/07/jekyll0</link>
+                <guid>http://atwoodunix.github.io/2013/12/07/jekyll0</guid>
                 <pubDate>2013-12-07T00:00:00+00:00</pubDate>
         </item>
 
